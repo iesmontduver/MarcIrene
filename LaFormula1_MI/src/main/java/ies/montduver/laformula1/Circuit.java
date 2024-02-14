@@ -15,6 +15,7 @@ public class Circuit {
     double longitud;
     int numVoltes;
     int record;
+    
 
     public Circuit(String nombre, String pais, String ciudad, double longitud, int numVoltes, int record) {
         this.nombre = nombre;
