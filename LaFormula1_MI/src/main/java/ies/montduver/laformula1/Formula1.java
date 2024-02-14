@@ -135,7 +135,10 @@ public class Formula1 {
         
         //Crear 5 escuderies
         Escuderia McLaren = new Escuderia("McLaren", 125000000.0);
-        
+        Escuderia Ferrari = new Escuderia("McLaren", 175000000.0);
+        Escuderia AstonMartin = new Escuderia("McLaren", 200000000.0);
+        Escuderia Mercedes = new Escuderia("McLaren", 160000000.0);
+        Escuderia RedBull = new Escuderia("McLaren", 135000000.0);
         //Crear els boxes de cada escuderia i afegir-los al pitLane
         Box box_ML = new Box(McLaren, 12);
         pitLane.add(box_ML);

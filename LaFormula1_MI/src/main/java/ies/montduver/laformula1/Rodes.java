@@ -38,10 +38,29 @@ public class Rodes {
 
     /* TO DO: Tornarà un String segons el valor (int) de l’atribut tipo_neumatic*/
     public String getTipo_neumatic() {
-       return "";
+        if (tipo_neumatic == 1){
+             String tipo_neumtic = "Blando";
+        }
+        if (tipo_neumatic == 2){
+             String tipo_neumtic = "Medio";
+        }
+        if (tipo_neumatic == 3){
+             String tipo_neumtic = "Duro";
+        }
+        if (tipo_neumatic == 4){
+             String tipo_neumtic = "Lluvia";
+        }
+        if (tipo_neumatic == 5){
+             String tipo_neumtic = "Lluvia extrema";
+        }
+        else{
+            String tipo_neumtic = "Desconegudes";
+        }
+    return "";
     }
 
     public void setTipo_neumatic(int tipo_neumatic) {
         this.tipo_neumatic = tipo_neumatic;
     }
+    
 }
