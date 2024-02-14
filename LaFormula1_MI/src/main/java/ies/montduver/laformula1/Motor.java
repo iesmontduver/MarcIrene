@@ -12,7 +12,6 @@ public class Motor {
     String tipo;
     double cilindrada;
     int potencia;
-    //comentari
 
     
     public Motor() {
