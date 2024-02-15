@@ -11,7 +11,7 @@ package ies.montduver.laformula1;
 public class Box {
    
     private Escuderia escuderia;
-    int numMecanics;
+    private int numMecanics;
     
         public Box(Escuderia escuderia, int numMecanics) {
         this.escuderia = escuderia;
