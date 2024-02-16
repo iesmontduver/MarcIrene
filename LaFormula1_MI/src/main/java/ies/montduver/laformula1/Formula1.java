@@ -144,11 +144,11 @@ public class Formula1 {
         pitLane.add(box_ML);
         Box box_FE = new Box(Ferrari, 16);
         pitLane.add(box_ML);
-        Box box_ML = new Box(McLaren, 12);
+        Box box_AM = new Box(AstonMartin, 12);
         pitLane.add(box_ML);
-        Box box_ML = new Box(McLaren, 12);
+        Box box_MC = new Box(Mercedes, 12);
         pitLane.add(box_ML);
-        Box box_ML = new Box(McLaren, 12);
+        Box box_RB = new Box(RedBull, 12);
         pitLane.add(box_ML);
         
         
@@ -156,7 +156,23 @@ public class Formula1 {
         
 
         //Crear 10 pilots; 2 per escuderia
-        Pilot Norris = new Pilot("L. Norris", McLaren, 4);
+        Pilot Norris = new Pilot("L. Norris", McLaren, 4,0,1000000.0);
+        Pilot Alonso = new Pilot("F. Alonso", AstonMartin, 7,0,2000000.0);
+        Pilot Hamilton = new Pilot("Hamilton", Mercedes, 17,0,1500000.0);
+        Pilot Pérez = new Pilot("Pérez", RedBull, 13,0,800000.0);
+        Pilot Stroll = new Pilot("L. Stroll", AstonMartin, 57,0,1200000.0);
+        Pilot Ricciardo = new Pilot("D. Ricciardo", McLaren, 45,0,1700000.0);
+        Pilot Russell = new Pilot("G. Russell", Mercedes, 25,0,1250000.0);
+        Pilot Verstappen = new Pilot("M. Verstappen", RedBull, 1,0,1800000.0);
+        Pilot Sainz = new Pilot("C. Sainz", Ferrari, 76,0,1400000.0);
+        Pilot Leclerc = new Pilot("C. Leclerc", McLaren, 49,0,1500000.0);
+        
+        
+        
+        
+        
+        
+        
         
 
         //Montar els 10 cotxes i afegir-los a la llista de cotxes

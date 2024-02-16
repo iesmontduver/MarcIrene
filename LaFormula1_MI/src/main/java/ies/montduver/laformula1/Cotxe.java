@@ -77,7 +77,7 @@ public class Cotxe {
      2) Assignarà l’atribut tempsCarrera al valor 0.0   
     */ 
     public void arrancarMotors(){
-        System.out.println (pilot + " ha arrancat el seu motor "+ escuderia + " montat amb rodes "+ rodes );
+        System.out.println (pilot.getNom() + " ha arrancat el seu motor "+ escuderia + " montat amb rodes "+ rodes.getMarca() );
         tempsCarrera = 0.0;
     }
     
@@ -86,7 +86,7 @@ public class Cotxe {
      2) Assignarà l’atribut tempsCarrera al valor 0.0
     */
     public void accident(){
-        System.out.println(pilot + " ha tigut un accident i ha d’abandonar la carrera" );
+        System.out.println(pilot.getNom() + " ha tigut un accident i ha d’abandonar la carrera" );
         tempsCarrera = 0.0;
         
               
