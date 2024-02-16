@@ -32,6 +32,7 @@ public class Box {
     public void setNumMecanics(int numMecanics) {
         this.numMecanics = numMecanics;
     }
+    
   
     
     
