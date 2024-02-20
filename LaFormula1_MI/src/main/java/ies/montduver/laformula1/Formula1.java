@@ -165,7 +165,7 @@ public class Formula1 {
         Pilot Russell = new Pilot("G. Russell", Mercedes, 25,0,1250000.0);
         Pilot Verstappen = new Pilot("M. Verstappen", RedBull, 1,0,1800000.0);
         Pilot Sainz = new Pilot("C. Sainz", Ferrari, 76,0,1400000.0);
-        Pilot Leclerc = new Pilot("C. Leclerc", McLaren, 49,0,1500000.0);
+        Pilot Leclerc = new Pilot("C. Leclerc", Ferrari, 49,0,1500000.0);
         
         
         
@@ -176,11 +176,38 @@ public class Formula1 {
         
 
         //Montar els 10 cotxes i afegir-los a la llista de cotxes
-        Cotxe c4 = new Cotxe(McLaren, new Rodes("Michelín"), new Motor(), new Xasis(McLaren.getNom(), "F1", "Blanco"));
+    Cotxe c1 = new Cotxe(McLaren, new Rodes("Michelín"), new Motor(), new Xasis(McLaren.getNom(), "F1", "Blanco",798,5.6,2));
+        cotxes.add(c1);
+        Cotxe c2 = new Cotxe(AstonMartin  , new Rodes("Michelín"), new Motor(), new Xasis(AstonMartin.getNom(), "F1", "Verde",798,5.6,2));
+        cotxes.add(c2);
+        Cotxe c3 = new Cotxe(Ferrari, new Rodes("Michelín"), new Motor(), new Xasis(Ferrari.getNom(), "F1", "Roig",798,5.6,2));
+        cotxes.add(c3);
+        Cotxe c4 = new Cotxe(Mercedes, new Rodes("Michelín"), new Motor(), new Xasis(Mercedes.getNom(), "F1", "Negro",798,5.6,2));
         cotxes.add(c4);
-       
+        Cotxe c5 = new Cotxe(RedBull, new Rodes("Michelín"), new Motor(), new Xasis(RedBull.getNom(), "F1", "Azul oscuro",798,5.6,2));
+        cotxes.add(c5);
+        Cotxe c6 = new Cotxe(McLaren, new Rodes("Michelín"), new Motor(), new Xasis(McLaren.getNom(), "F1", "Blanco",798,5.6,2));
+        cotxes.add(c6);
+        Cotxe c7 = new Cotxe(AstonMartin  , new Rodes("Michelín"), new Motor(), new Xasis(AstonMartin.getNom(), "F1", "Verde",798,5.6,2));
+        cotxes.add(c7);
+        Cotxe c8 = new Cotxe(Ferrari, new Rodes("Michelín"), new Motor(), new Xasis(Ferrari.getNom(), "F1", "Roig",798,5.6,2));
+        cotxes.add(c8);
+        Cotxe c9 = new Cotxe(Mercedes, new Rodes("Michelín"), new Motor(), new Xasis(Mercedes.getNom(), "F1", "Negro",798,5.6,2));
+        cotxes.add(c9);
+        Cotxe c10 = new Cotxe(RedBull, new Rodes("Michelín"), new Motor(), new Xasis(RedBull.getNom(), "F1", "Azul oscuro",798,5.6,2));
+        cotxes.add(c10);
         //Assignar un cotxe a cada pilot 
-        c4.setPilot(Norris);
+        c1.setPilot(Norris);
+        c2.setPilot(Alonso);
+        c3.setPilot(Sainz);
+        c4.setPilot(Hamilton);
+        c5.setPilot(Pérez);
+        c6.setPilot(Ricciardo);
+        c7.setPilot(Stroll);
+        c8.setPilot(Leclerc);
+        c9.setPilot(Russell);
+        c10.setPilot(Verstappen);
+        
         
     }    
 }

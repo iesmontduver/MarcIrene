@@ -52,6 +52,11 @@ public class Cotxe {
     public void setTempsCarrera(double tempsCarrera) {
         this.tempsCarrera = tempsCarrera;
     } 
+
+    public Rodes getRodes() {
+        return rodes;
+    }
+    
           
     public void ferEixida(){
         
@@ -77,7 +82,7 @@ public class Cotxe {
      2) Assignarà l’atribut tempsCarrera al valor 0.0   
     */ 
     public void arrancarMotors(){
-        System.out.println (pilot.getNom() + " ha arrancat el seu motor "+ escuderia + " montat amb rodes "+ rodes.getMarca() );
+        System.out.println (pilot.getNom() + " ha arrancat el seu motor "+ escuderia.getNom() + " montat amb rodes "+ rodes.getTipo_neumatic() );
         tempsCarrera = 0.0;
     }
     

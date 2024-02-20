@@ -35,28 +35,44 @@ public class Rodes {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+    
 
     /* TO DO: Tornarà un String segons el valor (int) de l’atribut tipo_neumatic*/
     public String getTipo_neumatic() {
-        if (tipo_neumatic == 1){
-             String tipo_neumtic = "Blando";
-        }
-        if (tipo_neumatic == 2){
-             String tipo_neumtic = "Medio";
-        }
-        if (tipo_neumatic == 3){
-             String tipo_neumtic = "Duro";
-        }
-        if (tipo_neumatic == 4){
-             String tipo_neumtic = "Lluvia";
-        }
-        if (tipo_neumatic == 5){
-             String tipo_neumtic = "Lluvia extrema";
-        }
-        else{
-            String tipo_neumtic = "Desconegudes";
-        }
-    return "";
+       String tiporodes;
+        switch (tipo_neumatic){
+           case 1:
+               tiporodes = "BLANES";
+               break;
+             case 2:
+               tiporodes = "MITGES";
+               break;
+                case 3:
+               tiporodes = "DURES";
+               break;
+                case 4:
+               tiporodes = "PLUTJA";
+               break;
+                case 5:
+               tiporodes = "PLUTJA EXTREMA";
+               break;
+               
+                default:
+               tiporodes= "DESCONEUDES";
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+       }
+    return tiporodes;
     }
 
     public void setTipo_neumatic(int tipo_neumatic) {
